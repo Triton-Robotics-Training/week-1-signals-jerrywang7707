@@ -1,15 +1,12 @@
 #include "mbed.h"
 
-DigitalIn button(BUTTON1);
+DigitalIn button(p5);
 DigitalOut led(LED1);
-
+bool button_old = 0;
 int main() {
     while (1) {
-        if(button == 1){
-            led = 1;
-        }
-        else{
-            led = 0;
+        if(button && !button_old){
+            led=!led;
         }
     }
 }
