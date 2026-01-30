@@ -1,6 +1,7 @@
 Question 1: Explain the difference between analog and digital signals.
-
+Digital is more like a binary which gives 0 and 1. When input or output is High, it represents 1, which is true. Vice versa, Low is 0 and means false. However, analog can read with a certain interval of voltage (from 0-3.3V in our board). Also, digital is discrete and analog is continueous. 
 Question 2: Give an example of something that uses digital signals and how it uses it.
 
 Question 3: Give an example of something that uses analog signals and how it uses it.
+
 
