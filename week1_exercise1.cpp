@@ -8,5 +8,6 @@ int main() {
         if(button && !button_old){
             led=!led;
         }
+        button_old = button.read();
     }
 }
